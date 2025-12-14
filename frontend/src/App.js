@@ -33,7 +33,7 @@ const ImagePromptGenerator = () => {
     formData.append('image', selectedFile);
 
     try {
-      const response = await fetch('http://localhost:8080/api/v1/analyze/image', {
+      const response = await fetch('https://image-prompt-generator-68as.onrender.com/api/v1/analyze/image', {
         method: 'POST',
         body: formData,
       });
