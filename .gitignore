@@ -1,0 +1,21 @@
+# Backend
+backend/target/
+backend/*.jar
+backend/.idea/
+backend/*.iml
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+
+# IDE
+.vscode/
+*.swp
+.DS_Store
+
+# API Keys - NEVER commit this!
+backend/src/main/resources/application.properties
+
+# Logs
+*.log
+logs/
