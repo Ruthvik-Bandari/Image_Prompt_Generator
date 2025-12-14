@@ -471,7 +471,7 @@ const ImagePromptGenerator = () => {
         </div>
 
         <footer style={{ textAlign: 'center', marginTop: '3rem', color: '#64748b' }}>
-          <p>Masters Final Project - Image Prompt Generator v1.0</p>
+          <p>Image Prompt Generator v1.0</p>
           <p style={{ marginTop: '0.5rem' }}>Built with Spring Boot & React</p>
         </footer>
       </div>
